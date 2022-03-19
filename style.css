@@ -1,0 +1,204 @@
+:root {
+  --primaryColor: #6cb48f;
+  --fontColor: #616462;
+  --shadeColor: #4e7d5e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 90%;
+    height: 10%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .left-nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav img {
+    width: 120px;
+    height: 40px;
+}
+
+.left-nav a {
+    color: var(--fontColor);
+    font-weight: 700;
+}
+
+.left-nav a:hover {
+    color: var(--primaryColor);
+    font-weight: 700;
+}
+nav .menu {
+    width: 40px;
+    height: 25px;
+}
+
+
+
+
+
+
+main {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+.left-section {
+    width: 50%;
+    height: 100%;
+}
+
+.decoration-items {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.circle {
+    top: 195px;
+}
+.triangle {
+    top: 110px;
+    left: 750px;
+}
+.halfsquare {
+    top: 390px;
+    left: 490px;
+    height: 45px;
+}
+.fav {
+    color: var(--shadeColor);
+    font-weight: bold;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 180px;
+}
+
+.fav span img {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.left-section h1 {
+    font-size: 80px;
+    margin-bottom: 100px;
+    line-height: .9;
+}
+
+.content {
+    color: var(--fontColor);
+    font-size: 24px;
+    margin-bottom: 70px;
+    line-height: 1.7;
+}
+
+.left-section a {
+    padding: 18px 26px;
+    background-color: var(--primaryColor);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 36px;
+    box-shadow: 3px 3px 5px 5px var(--shadeColor);
+    margin-bottom: 120px;
+    display: block;
+    width: 180px;
+}
+
+.learn-more {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+.right-section {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+#ecoBack{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 40px;
+}
+
+#ecoSys {
+    z-index: 2;
+    position: absolute;
+    top: 110px;
+}
+
+.processes1 {
+    position: absolute;
+    width: 350px;
+    z-index: 4;
+    top: 560px;
+    right: 90px;
+}
+
+.processes2 {
+    position: absolute;
+    width: 350px;
+    left: -80px;
+    top: 420px;
+    z-index: 4;
+}
+
+.processes3 {
+    position: absolute;
+    z-index: 4;
+    width: 350px;
+    top: 80px;
+    left: 160px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 695px;
+    left: 60px;
+    z-index: 4;
+}
+
+#chat {
+    position: absolute;
+    z-index: 4;
+    right: 0px;
+    bottom: -200px;
+}
